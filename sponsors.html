@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coding with Robby</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="logos">
+    <div class="logos-slide">
+      <img src="./images/Texas-KB-Utilities.jpg" />
+      <img src="./images/Bartlett-Cocke.jpg" />
+      <img src="./images/Blue-Bell-Ice-Cream.jpg" />
+      <img src="./images/Brenham-National-Bank-BNB.jpg" />
+      <img src="./images/Paragon.jpg" />
+    </div>
+  </div>
+
+  <script>
+    var copy = document.querySelector(".logos-slide").cloneNode(true);
+    document.querySelector(".logos").appendChild(copy);
+  </script>
+</body>
+
+</html>
